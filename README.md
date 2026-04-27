@@ -46,10 +46,13 @@ This repository contains private vulnerability reports in the `triage` state to 
 
 ### Duplicates
 
-- [GHSA-w2mr-v2p8-gj38](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-w2mr-v2p8-gj38) is an easy duplicate (nearly identical, rephrased) of [GHSA-4pq4-7973-jhp4](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-4pq4-7973-jhp4)
-- [GHSA-3r9f-fxx8-4gv9](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-3r9f-fxx8-4gv9) is a moderate duplicate (different framing, same core issue) of [GHSA-4pq4-7973-jhp4](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-4pq4-7973-jhp4)
-- [GHSA-w43w-r4x2-9667](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-w43w-r4x2-9667) is a hard duplicate (different angle, partial information, no mention of `--proto`) of [GHSA-4pq4-7973-jhp4](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-4pq4-7973-jhp4)
+Original Advisory, [GHSA-4pq4-7973-jhp4](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-4pq4-7973-jhp4):
+- Easy to detect duplicate (nearly identical, rephrased): [GHSA-w2mr-v2p8-gj38](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-w2mr-v2p8-gj38)
+- Moderate duplicate (different framing, same core issue): [GHSA-3r9f-fxx8-4gv9](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-3r9f-fxx8-4gv9)
+- Hard duplicate (different angle, partial information, no mention of `--proto`): [GHSA-w43w-r4x2-9667](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-w43w-r4x2-9667)
 
-- [GHSA-65w9-fvmq-5rx8](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-65w9-fvmq-5rx8) is an easy duplicate (clearly the same, minor rewording) of [GHSA-6gqq-qfr4-px42](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-6gqq-qfr4-px42)
-- [GHSA-xjwf-26mg-rm9x](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-xjwf-26mg-rm9x) is a moderate duplicate (focuses on symptoms, doesn't name all components) of [GHSA-6gqq-qfr4-px42](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-6gqq-qfr4-px42)
-- [GHSA-v3c5-pf6p-j93m](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-v3c5-pf6p-j93m) is a hard duplicate (vague, from a user perspective, no CVE/CWE references) of [GHSA-6gqq-qfr4-px42](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-6gqq-qfr4-px42)
+
+Original Advisory, [GHSA-6gqq-qfr4-px42](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-6gqq-qfr4-px42):
+- Easy to detect duplicate (clearly the same, minor rewording): [GHSA-65w9-fvmq-5rx8](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-65w9-fvmq-5rx8)
+- Moderate duplicate (focuses on symptoms, doesn't name all components): [GHSA-xjwf-26mg-rm9x](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-xjwf-26mg-rm9x)
+- Hard duplicate (vague, from a user perspective, no CVE/CWE references): [GHSA-v3c5-pf6p-j93m](https://github.com/dsp-testing/pvr-triage-testing/security/advisories/GHSA-v3c5-pf6p-j93m)
